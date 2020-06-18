@@ -13,8 +13,8 @@ y = c(0.2,0.5,0.4,0.3,0.4,0.2,0.1,0.1,0.1,0,0,0,0)
 caucus = cbind(x,y)
 caucus = as.data.frame(caucus)
 
-
-elections = read.csv("fakedata.csv")
+#Import dataset with constructed distributions
+elections = read.csv("https://raw.githubusercontent.com/mawalz05/Paper_Presidential_Primaries/master/fakedata.csv")
 
 elections2 = gather(elections, type, Dimension)
 
