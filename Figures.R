@@ -3,8 +3,6 @@ library(dplyr)
 library(tidyr)
 library(ggridges)
 library(stats)
-library(nnet)
-library(stargazer)
 
 #############Figure 1: Spatial Density Plots#####
 x = c(-1,-0.9,-0.8,-0.6,-0.5,-0.4,-0.3,-0.2,-0.1,0,0.1,0.2,0.3)
